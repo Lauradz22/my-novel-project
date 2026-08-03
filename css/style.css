@@ -1,0 +1,175 @@
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+body {
+  background-color: antiquewhite;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 60px;
+  color: #3b2417;
+}
+nav {
+  margin-top: 40px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: linen;
+  padding: 3px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: purple;
+  border-radius: 10px;
+  padding: 10px;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+nav a:hover {
+  color: antiquewhite;
+  background-color: maroon;
+}
+h1 {
+  color: #483123;
+  text-align: center;
+  font-size: 45px;
+}
+h3 {
+  color: maroon;
+  margin-bottom: 20px;
+}
+p {
+  line-height: 1.45;
+}
+section {
+  margin-top: 60px;
+}
+section p {
+  margin-bottom: 20px;
+  max-width: 1000px;
+}
+.section-title {
+  color: #5c1f1f;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 28px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid tan;
+}
+.section-image {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: 180px;
+  margin: 0 auto 30px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 3px 4px 10px rgba(79, 47, 15, 0.15);
+}
+.section-image-worldbuilding {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: 180px;
+  margin: 0 auto 30px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 3px 4px 10px rgba(79, 47, 15, 0.15);
+  object-position: top;
+}
+footer {
+  margin-top: 60px;
+  padding-top: 25px;
+  border-top: 1px solid tan;
+  color: #5e3030;
+  font-size: 14px;
+}
+.character-card {
+  background-color: linen;
+  background-image:
+    linear-gradient(rgba(255, 250, 240, 0.4), rgba(255, 250, 240, 0.4)),
+    url("../images/paper-texture.jpg");
+
+  background-size: 300px auto;
+  background-repeat: repeat;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid tan;
+  max-width: 550px;
+  max-height: 170px;
+  margin: 30px auto;
+  box-shadow: 4px 4px 5px rgba(79, 47, 15, 0.15);
+}
+.character-card h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: maroon;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+.character-card h3::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 2px;
+  margin-top: 8px;
+  background-color: tan;
+}
+.continue-link {
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  color: maroon;
+  padding: 10px 18px;
+  border-radius: 10px;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+.continue-link:hover {
+  color: antiquewhite;
+
+  background-color: purple;
+}
+
+.explore-container {
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 30px;
+}
+
+.explore-card {
+  font-family: "Times New Roman", Times, serif;
+  background-color: linen;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid purple;
+  font-weight: 600;
+  font-size: 14px;
+  width: 320px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px rgba(79, 47, 15, 0.1);
+}
+
+.explore-card p {
+  margin-top: 0;
+}
+
+.explore-card p::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: tan;
+  margin: 18px auto 0;
+}
