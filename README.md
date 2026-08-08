@@ -1,6 +1,6 @@
 # My Novel Project
 
-A responsive webpage created as part of my web development learning journey. This project allowed me to practise building and styling a webpage from scratch using HTML and CSS.
+A webpage created as part of my web development learning journey. This project allowed me to practise building and styling a webpage from scratch using HTML and CSS.
 
 ## About the project
 
