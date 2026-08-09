@@ -100,10 +100,11 @@ footer {
   margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid tan;
+  width: 100%;
   max-width: 550px;
-  max-height: 170px;
   margin: 30px auto;
   box-shadow: 4px 4px 5px rgba(79, 47, 15, 0.15);
+  box-sizing: border-box;
 }
 .character-card h3 {
   margin-top: 0;
@@ -172,4 +173,20 @@ footer {
   height: 1px;
   background-color: tan;
   margin: 18px auto 0;
+}
+.character-card {
+  max-height: none;
+  height: auto;
+}
+@media (max width: 600px) {
+  body {
+    margin: 20px;
+  }
+  .character-card {
+    padding: 18px;
+    margin: 20px auto;
+  }
+  .character-card h3 {
+    font-size: 21px;
+  }
 }
